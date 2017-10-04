@@ -1,12 +1,10 @@
 node_modules
 build
-.idea
-.gulp
-node_modules
-build
 gulp
 package.json
 gulpfile.js
 package.json
 package-lock.json
 README.md
+.idea
+.gulp

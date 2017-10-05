@@ -31,9 +31,14 @@
   width 100%
   max-width 975px
   margin 0 auto
+  height 100px
 
 .portfolio-item_line
   display flex
+
+.portfolio-item_center
+  display flex
+  flex-wrap wrap
 
 .portfolio-item
   position relative
@@ -43,6 +48,8 @@
   cursor pointer
   &.portfolio-item--width
     width 390px
+  &.portfolio-item--height
+    height 460px
 
   &:hover
     .portfolio-item_descr

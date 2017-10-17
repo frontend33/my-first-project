@@ -7,10 +7,15 @@
     flex-wrap wrap
 
   .price-item
+    display flex
+    flex-direction column
+    justify-content space-between
     width: 30%
     padding 20px 20px 30px
+    margin-bottom: 30px
     border-radius 10px
     text-align center
+    color mainColor
   .price-item--level1
     background url('../img/general/level/level1.png') 0 0 no-repeat
     background-size cover
@@ -22,3 +27,48 @@
   .price-item--level3
     background url('../img/general/level/level3.png') 0 0 no-repeat
     background-size cover
+
+
+  .price_title
+    display block
+    font-size 24px
+    font-family boldFont
+    text-transform uppercase
+
+    &:after
+      content ''
+      display block
+      margin: 20px auto
+      width: 260px
+      height: 1px
+      background-color mainColor
+
+  .price-descr
+    margin-bottom: 10px
+
+
+
+  .price-list
+    margin-bottom 20px
+    li
+      margin-bottom: 5px
+
+  .price-number
+    width: 100%
+    height: 60px
+    max-width: 260px
+    margin 0 auto
+    background url('../img/general/price-bg.png') 0 0 no-repeat
+    line-height: 60px
+    font-size 42px
+    color #fff
+    font-family boldFont
+  .price-order
+    text-align: center
+    color: #fff
+    p
+      margin-bottom: 30px
+      font-size 28px
+      a
+        color: #fff
+        font-family boldFont
